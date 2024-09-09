@@ -18,3 +18,5 @@ final class BlocBlogUpload extends BlogEvent {
     required this.topics,
   });
 }
+
+final class BlogFetchAllBlogs extends BlogEvent {}
